@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- 收入 -->
+    <LinearLayout 
+        android:id="@+id/llincome"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginTop="40dp"
+         android:gravity="center"
+         android:orientation="vertical" 
+        >
+        
+        <ImageView 
+            android:id="@+id/ivHomeIncome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/myincome"
+           />
+        
+        <TextView 
+             android:id="@+id/tvHomeIncome"
+             style="@style/HomeTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_income"
+            />
+    </LinearLayout>
+    
+    <!-- 支出 -->
+    <LinearLayout 
+         android:id="@+id/lloutcome"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="70dp"
+         android:layout_marginTop="40dp"
+         android:layout_toRightOf="@+id/llincome"
+          android:gravity="center"
+         android:orientation="vertical" 
+       >
+     <ImageView 
+            android:id="@+id/ivHomeOutcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mypay"
+           />
+        
+        <TextView 
+             android:id="@+id/tvHomeOutcome"
+             style="@style/HomeTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_outcome"
+            />
+        
+        </LinearLayout>
+    
+    <!-- 列表 -->
+    <LinearLayout 
+         android:id="@+id/lllist"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/llincome"
+         android:layout_marginLeft="50dp"
+          android:layout_marginTop="50dp"
+          android:gravity="center"
+         android:orientation="vertical" 
+       >
+     <ImageView 
+            android:id="@+id/ivHomeList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mymemo"
+        />
+        
+        <TextView 
+             android:id="@+id/tvHomeList"
+             style="@style/HomeTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_list"
+            />
+        
+        </LinearLayout>
+    
+    <!-- 设置 -->
+    <LinearLayout 
+         android:id="@+id/llsetting"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/lloutcome"
+         android:layout_toRightOf="@+id/lllist"
+         android:layout_marginLeft="70dp"
+         android:layout_marginTop="50dp"
+          android:gravity="center"
+         android:orientation="vertical" 
+       >
+     <ImageView 
+            android:id="@+id/ivHomeSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/memo"
+           />
+        
+        <TextView 
+             android:id="@+id/tvHomeSetting"
+             style="@style/HomeTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_setting"
+            />
+        
+        </LinearLayout>
+        
+      <!-- 分类-->
+      <LinearLayout 
+         android:id="@+id/llfenlei"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/lllist"
+         android:layout_marginLeft="50dp"
+         android:layout_marginTop="50dp"
+          android:gravity="center"
+         android:orientation="vertical" 
+       >
+     <ImageView 
+            android:id="@+id/ivHomeFenlei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/data"
+           />
+        
+        <TextView 
+             android:id="@+id/tvHomeFenlei"
+             style="@style/HomeTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_fenlei"
+            />
+        
+        </LinearLayout>
+        
+   <!-- 模板 -->
+   <LinearLayout 
+         android:id="@+id/llmodle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/llsetting"
+         android:layout_marginLeft="70dp"
+         android:layout_marginTop="50dp"
+         android:layout_toRightOf="@+id/llfenlei"
+          android:gravity="center"
+         android:orientation="vertical" 
+       >
+     <ImageView 
+            android:id="@+id/ivHomeModle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/memo"
+           />
+        
+        <TextView 
+             android:id="@+id/tvHomeModle"
+             style="@style/HomeTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_modle"
+            />
+        
+        </LinearLayout>
+
+</RelativeLayout>

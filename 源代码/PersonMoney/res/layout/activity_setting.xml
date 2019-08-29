@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_me_parsonal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/main_set_bt"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="20dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:id="@+id/main_me_headphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/head_ph" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/main_me_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="@string/setting_username" />
+
+            <TextView
+                android:id="@+id/main_me_weixinNum"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="@string/setting_myword"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/main_me_twodimension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_me_twodimension" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setting_photo"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/main_set_bt"
+        android:drawableLeft="@drawable/main_me_album"
+        android:drawablePadding="10dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dip"
+        android:text="@string/setting_myphoto" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/main_find_white"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_find_gray" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_me_collect"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/main_set_bt"
+        android:drawableLeft="@drawable/main_me_collect"
+        android:drawablePadding="10dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dip"
+        android:text="@string/setting_collect" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/main_find_white"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_find_gray" />
+    </LinearLayout>
+
+   
+
+    <Button
+        android:id="@+id/main_me_expression"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/main_set_bt"
+        android:drawableLeft="@drawable/main_me_expression"
+        android:drawablePadding="10dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dip"
+        android:text="@string/setting_smail" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/main_find_white"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_find_gray" />
+    </LinearLayout>
+
+    
+    <Button
+        android:id="@+id/btn_takephoto"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/main_set_bt"
+        android:drawableLeft="@drawable/main_me_setting"
+        android:drawablePadding="10dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dip"
+        android:text="拍照" />
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/main_find_white"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_find_gray" />
+    </LinearLayout>
+    
+
+    <Button
+        android:id="@+id/btn_photo"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+          android:layout_marginTop="0dip"
+        android:background="@drawable/main_set_bt"
+        android:drawableLeft="@drawable/main_me_setting"
+        android:drawablePadding="10dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dip"
+        android:text="从相册取" />
+    
+     
+    
+      
+
+    <!--
+         <Button
+        android:id="@+id/main_me_setting"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/main_set_bt"
+        android:drawableLeft="@drawable/main_me_setting"
+        android:drawablePadding="10dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dip"
+        android:text="@string/setting_myself" />
+    -->
+
+</LinearLayout>

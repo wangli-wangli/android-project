@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+<TextView 
+    android:id="@+id/tvlistcometitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/listpre_title"></TextView>
+
+<TableLayout 
+    android:id="@+id/tlListCome"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:background="#dedcd2" 
+        android:stretchColumns="*" > 
+ 
+        <TableRow 
+            android:layout_margin="0.5dip" 
+            android:background="#dedcd2" > 
+ 
+            <TextView 
+                android:background="#ffffff" 
+                android:gravity="center" 
+                android:text="@string/listpre_table_head_pre" 
+                /> 
+ 
+            <TextView 
+                android:gravity="center" 
+                android:background="#ffffff" 
+                android:text="@string/listcome_table_head_money" 
+                 /> 
+ 
+            <TextView 
+                android:gravity="center" 
+                android:background="#ffffff" 
+                android:text="@string/listcome_table_head_style" 
+                 /> 
+                 <TextView 
+                android:gravity="center" 
+                android:background="#ffffff" 
+                android:text="@string/listpre_table_for" 
+                 /> 
+                 <TextView 
+                android:gravity="center" 
+                android:background="#ffffff" 
+                android:text="@string/listcome_table_head_time" 
+                 /> 
+                 <TextView 
+                android:gravity="center" 
+                android:background="#ffffff" 
+                android:text="@string/listcome_table_head_note" 
+                 /> 
+        </TableRow> 
+    </TableLayout> 
+</LinearLayout>

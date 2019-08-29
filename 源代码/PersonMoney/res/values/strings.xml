@@ -1,0 +1,62 @@
+<resources>
+    <!-- 主页面 -->
+    <string name="app_name">小虎记账</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_setting">Setting</string>
+    <string name="login_text">小虎记账</string>
+    <string name="login_btn_begin">进入</string>
+    <string name="home_income">日常收入</string>
+    <string name="home_outcome">日常支出</string>
+    <string name="home_list">收支列表</string>
+    <string name="home_setting">软件设置</string>
+    <string name="home_fenlei">预算列表</string>
+    <string name="home_modle">添加预算</string>
+    <string name="home_biaoge">收支图表</string>
+    <string name="home_today_title">今天的账单</string>
+    <!-- 收入 -->
+    <string name="income_num">收入金额</string>
+    <string name="income_style">收入方式</string>
+    <string name="income_fenlei">收入分类</string>
+    <string name="income_time">收入时间</string>
+    <string name="income_note">收入备注</string>
+    <string name="income_note_input">请输入收入备注</string>
+    <string name="income_input_num">请输入金额（单位：元）</string>
+    <string name="income_reset">重置</string>
+    <string name="income_submit">确定</string>
+    <!-- 支出 -->
+     <string name="outcome_num">支出金额</string>
+    <string name="outcome_style">支出方式</string>
+    <string name="outcome_fenlei">支出分类</string>
+    <string name="outcome_time">支出时间</string>
+    <string name="outcome_note">支出备注</string>
+    <string name="outcome_note_input">请输入支出备注</string>
+    <string name="outcome_input_num">请输入金额（单位：元）</string>
+    <string name="outcome_reset">重置</string>
+    <string name="outcome_submit">确定</string>
+    
+    <!-- 收支列表统计 -->
+    <string name="listcome_title">收支信息如下</string>
+     <string name="listcome_table_head_inorout">收入或支出</string>
+     <string name="listcome_table_head_money">金额</string>
+     <string name="listcome_table_head_style">方式</string>
+     <string name="listcome_table_head_fenlei">用途或来源</string>
+     <string name="listcome_table_head_time">日期</string>
+     <string name="listcome_table_head_note">备注</string>
+     <string name="listcome_showin">显示收入</string>
+     <string name="listcome_showout">显示支出</string>
+     <string name="listcome_showincome_back">返回</string>
+     <!-- 预算列表如下 -->
+     <string name="listpre_title">预算列表如下</string>
+     <string name="listpre_table_head_pre">类型</string>
+     <string name="listpre_table_for">用途</string>
+     <!-- 添加预算 -->
+     <string name="addpre_title">添加您的预算</string>
+     <string name="addpre_time">预计支出时间</string>
+     <!-- 设置个人 -->
+     <string name="setting_username">虎宝宝</string>
+     <string name="setting_myphoto">我的照片</string>
+     <string name="setting_collect">我的收藏</string>
+     <string name="setting_smail">我的表情</string>
+     <string name="setting_myself">个人设置（设置自己的头像</string>
+     <string name="setting_myword">我相信</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+     <TextView 
+             android:id="@+id/tvlistcometitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/listcome_title"
+            />
+     <LinearLayout
+           android:id="@+id/llListChice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/income_padding" 
+         >
+         <Button android:id="@+id/btnlistin"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/listcome_showincome_back"/>"
+     </LinearLayout>
+    
+     <TableLayout 
+          android:id="@+id/tlListCome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#dedcd2"
+            android:stretchColumns="*"
+         >
+         <TableRow
+            android:layout_margin="0.5dip"
+            android:background="#dedcd2" >
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/listcome_table_head_inorout" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/listcome_table_head_money" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/listcome_table_head_style" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/listcome_table_head_fenlei" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/listcome_table_head_time" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/listcome_table_head_note" />
+        </TableRow>
+     </TableLayout>
+     
+</LinearLayout>
